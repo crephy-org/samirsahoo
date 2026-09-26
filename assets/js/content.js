@@ -7,6 +7,7 @@ window.SITE_CONTENT = {
     email: "samirkumsahoo@gmail.com",
     scholar: "https://scholar.google.com/citations?hl=en\&user=UBcPMR8AAAAJ",
     orcid: "https://orcid.org/0000-0002-8182-3994",
+    ResearchGate: "https://www.researchgate.net/profile/Samir-Sahoo",
     portrait: null
   },
 
