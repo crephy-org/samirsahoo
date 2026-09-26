@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Research website of Samir Sahoo, an applied mathematician and theoretical physicist studying collective behavior in nonlinear and stochastic systems." />
+  <meta name="author" content="Samir Sahoo" />
+  <meta name="theme-color" content="#fbfcfd" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Samir Sahoo — Research" />
+  <meta property="og:description" content="Collective behavior in nonlinear and stochastic systems: synchronization, bifurcation, symmetry, higher-order interactions, noise, and delay." />
+  <meta property="og:image" content="assets/media/research-hero-preview.png" />
+  <title>Samir Sahoo — Research</title>
+  <link rel="icon" href="assets/media/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Home">SKS</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">Menu</button>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Nonlinear dynamics · Statistical physics · Complex systems</p>
+        <h1 id="hero-name"></h1>
+        <p id="hero-title" class="hero-title"></p>
+        <p id="hero-summary" class="hero-summary"></p>
+        <div class="hero-actions">
+          <a class="button primary" href="#research">Research</a>
+          <a class="button ghost" href="#publications">Publications</a>
+        </div>
+      </div>
+      <figure class="hero-visual" aria-label="Animated phase-locked oscillator network with higher-order faces and a collective order parameter">
+        <picture>
+          <source media="(prefers-reduced-motion: reduce)" srcset="assets/media/research-hero-preview.png" />
+          <img src="assets/media/research-hero.gif" alt="A phase-locked oscillator network rotating at a common frequency, together with the corresponding complex order parameter." width="1350" height="840" />
+        </picture>
+      </figure>
+    </section>
+
+    <section class="section-shell news-strip" aria-label="Recent news">
+      <div class="news-label">Recent</div>
+      <div id="news-list" class="news-list"></div>
+    </section>
+
+    <section id="research" class="section-shell block">
+      <div class="section-heading">
+        <p class="eyebrow">Research</p>
+        <h2>Questions I work on</h2>
+        <p>I study collective behavior in interacting nonlinear systems. The questions below recur across much of my work: how coherence begins, how interaction geometry changes it, how symmetry organizes periodic states, and when reduced oscillator models remain faithful to physical arrays.</p>
+      </div>
+      <div id="research-grid" class="card-grid"></div>
+    </section>
+
+    <section class="section-shell block muted-band">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Research in progress</p>
+        <h2>Current directions</h2>
+        <p>These questions extend my work on heterogeneous oscillator populations, higher-order interactions, symmetry breaking, and physical oscillator arrays.</p>
+      </div>
+      <div id="directions-list" class="directions"></div>
+    </section>
+
+    <section id="publications" class="section-shell block">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Publications</p>
+          <h2>Selected work</h2>
+        </div>
+        <div class="publication-actions">
+          <button id="download-bibtex" class="text-button">Download BibTeX</button>
+          <button id="toggle-publications" class="text-button">Show all publications</button>
+        </div>
+      </div>
+      <div id="publication-list" class="publication-list"></div>
+    </section>
+
+    <section id="about" class="section-shell block two-column muted-band about-block">
+      <div>
+        <div id="portrait-slot" class="portrait-slot" hidden></div>
+        <p class="eyebrow">About</p>
+        <h2>Research profile</h2>
+        <p>I am an applied mathematician and theoretical physicist studying collective behavior in nonlinear and stochastic systems. I am interested in how microscopic dynamics and interactions determine the onset and selection of collective states, and how these transitions change with heterogeneity, symmetry, noise, delay, and network structure.</p>
+        <p>My work combines bifurcation and stability analysis, stochastic and kinetic descriptions, numerical continuation, and direct simulation. My recent postdoctoral research at San Diego State University focused on broken dihedral symmetry, disorder, and coupled optical-device arrays.</p>
+      </div>
+      <div>
+        <h3>Methods and computation</h3>
+        <div id="methods" class="tag-cloud"></div>
+        <h3 class="spaced">Research appointments</h3>
+        <div id="experience-list" class="timeline"></div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section-shell block">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Teaching</p>
+        <h2>Teaching</h2>
+      </div>
+      <div id="teaching-list" class="timeline wide"></div>
+    </section>
+
+    <section id="contact" class="section-shell contact block muted-band">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Contact</h2>
+        <p>For research, collaboration, seminars, or academic inquiries, email is the simplest way to reach me.</p>
+      </div>
+      <div class="contact-links">
+        <a id="email-link" href="#"></a>
+        <a id="scholar-link" href="#" target="_blank" rel="noopener">Google Scholar</a>
+        <a id="orcid-link" href="#" target="_blank" rel="noopener">ORCID</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <span>© <span id="year"></span> Samir Sahoo</span>
+    <span>Nonlinear dynamics · statistical physics · complex systems</span>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Samir Sahoo",
+    "jobTitle":"Applied mathematician and theoretical physicist",
+    "email":"mailto:samirkumsahoo@gmail.com",
+    "sameAs":["https://orcid.org/0000-0002-8182-3994","https://scholar.google.com/citations?hl=en\&user=UBcPMR8AAAAJ"]
+  }
+  </script>
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

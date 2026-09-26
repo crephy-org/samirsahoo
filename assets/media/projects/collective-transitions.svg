@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t d"><title id="t">Collective transition schematic</title><desc id="d">A schematic local bifurcation diagram for an order parameter R versus coupling K, with solid stable branches and a dashed unstable branch.</desc>
+<rect width="720" height="420" fill="#f4f2ed"/>
+<g stroke="#8a9297" stroke-width="1.4" fill="none"><path d="M95 330H640"/><path d="M110 350V70"/></g>
+<g fill="#667078" font-family="Arial, sans-serif" font-size="18"><text x="647" y="337">K</text><text x="94" y="60">R</text></g>
+<path d="M110 330 C245 330 325 330 380 330" fill="none" stroke="#263b46" stroke-width="4" stroke-linecap="round"/>
+<path d="M330 330 C350 300 365 270 386 232 C421 168 471 122 610 96" fill="none" stroke="#24556d" stroke-width="4" stroke-linecap="round"/>
+<path d="M330 330 C326 296 335 269 351 249 C361 236 373 228 386 232" fill="none" stroke="#8a9297" stroke-width="3" stroke-dasharray="9 8" stroke-linecap="round"/>
+<circle cx="330" cy="330" r="5.5" fill="#24556d"/><circle cx="386" cy="232" r="5.5" fill="#24556d"/>
+<g stroke="#c0c5c8" stroke-width="1.2" stroke-dasharray="4 6"><path d="M330 330V365"/><path d="M386 232V365"/></g>
+</svg>

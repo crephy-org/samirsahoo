@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#f6f8f9"/>
+  <!-- two K5 one-skeletons sharing the triangular face (A,B,C) -->
+  <g stroke="#a9bbc5" stroke-width="1.8" fill="none" opacity="0.95">
+    <!-- clique 1: A B C D E -->
+    <path d="M385 155L450 265M385 155L338 350M385 155L195 215M385 155L220 395"/>
+    <path d="M450 265L338 350M450 265L195 215M450 265L220 395"/>
+    <path d="M338 350L195 215M338 350L220 395"/>
+    <path d="M195 215L220 395"/>
+    <!-- clique 2: A B C F G -->
+    <path d="M385 155L655 205M385 155L690 395"/>
+    <path d="M450 265L655 205M450 265L690 395"/>
+    <path d="M338 350L655 205M338 350L690 395"/>
+    <path d="M655 205L690 395"/>
+  </g>
+  <path d="M385 155L450 265L338 350Z" fill="#315f78" opacity="0.14" stroke="#315f78" stroke-width="2.4"/>
+  <g fill="#315f78">
+    <circle cx="385" cy="155" r="9"/><circle cx="450" cy="265" r="9"/><circle cx="338" cy="350" r="9"/>
+  </g>
+  <g fill="#718f9f">
+    <circle cx="195" cy="215" r="9"/><circle cx="220" cy="395" r="9"/>
+    <circle cx="655" cy="205" r="9"/><circle cx="690" cy="395" r="9"/>
+  </g>
+  <path d="M134 472 C245 447 326 452 407 478" fill="none" stroke="#d1dce2" stroke-width="1.2"/>
+  <path d="M493 478 C577 450 659 450 770 474" fill="none" stroke="#d1dce2" stroke-width="1.2"/>
+</svg>
