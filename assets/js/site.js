@@ -10,6 +10,8 @@
   $('#email-link').href = `mailto:${C.profile.email}`;
   $('#scholar-link').href = C.profile.scholar;
   $('#orcid-link').href = C.profile.orcid;
+  $('#ResearchGate-link').href = C.profile.ResearchGate;
+  $('#GitHub-link').href = C.profile.GitHub;
   $('#year').textContent = new Date().getFullYear();
 
   if (C.profile.portrait) {
