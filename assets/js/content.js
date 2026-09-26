@@ -82,7 +82,7 @@ window.SITE_CONTENT = {
       venue:"Physical Review Research",
       status:"Accepted; in production",
       doi:"https://doi.org/10.1103/v5cl-krph",
-      scholar:null
+      scholar: null
     },
     {
       year:"2026",
