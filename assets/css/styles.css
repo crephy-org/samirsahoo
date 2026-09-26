@@ -61,8 +61,14 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .hero-visual img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
 @media (max-width:900px){.hero-visual{max-width:760px;margin-inline:auto}}
 
+.brand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .brand-mark {
-    display: block;
-    width: 92px;
-    height: auto;
+  display: block;
+  width: 94px;
+  height: auto;
 }
