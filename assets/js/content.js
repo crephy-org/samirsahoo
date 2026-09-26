@@ -5,7 +5,7 @@ window.SITE_CONTENT = {
     affiliation: "",
     summary: "I study collective behavior in nonlinear and stochastic systems, with particular interest in synchronization, bifurcation, symmetry, higher-order interactions, noise, and delay.",
     email: "samirkumsahoo@gmail.com",
-    scholar: "https://scholar.google.com/scholar?q=%22Samir+Kumar+Sahoo%22+%220000-0002-8182-3994%22",
+    scholar: "https://scholar.google.com/citations?hl=en\&user=UBcPMR8AAAAJ",
     orcid: "https://orcid.org/0000-0002-8182-3994",
     portrait: null
   },
