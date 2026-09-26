@@ -82,7 +82,7 @@ window.SITE_CONTENT = {
       venue:"Physical Review Research",
       status:"Accepted; in production",
       doi:"https://doi.org/10.1103/v5cl-krph",
-      scholar:"https://scholar.google.com/scholar?q=%22Combined+Framework+for+Synchronization+with+Distributed+Delays+and+Noise+in+Kuramoto-Daido+Oscillators%22"
+      scholar:null
     },
     {
       year:"2026",
@@ -90,7 +90,7 @@ window.SITE_CONTENT = {
       authors:"Samir Sahoo and Neelima Gupte",
       venue:"Journal of Physics: Complexity 7, 035016",
       status:"Published",
-      doi:null,
+      doi:"https://doi.org/10.1088/2632-072X/aea512",
       scholar:"https://scholar.google.com/scholar?q=%22Interface+Geometry+Controls+Hysteresis+and+Mode-Locking+in+a+Simplicial+Kuramoto+Motif%22"
     },
     {
