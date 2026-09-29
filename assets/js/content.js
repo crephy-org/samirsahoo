@@ -1,7 +1,7 @@
 window.SITE_CONTENT = {
   profile: {
     name: "Samir Sahoo",
-    title: "Applied mathematician and theoretical physicist",
+    title: "A researcher in applied mathematics and theoretical physics",
     affiliation: "",
     summary: "I study collective behavior in nonlinear and stochastic systems, with particular interest in synchronization, bifurcation, symmetry, higher-order interactions, noise, and delay.",
     email: "samirkumsahoo@gmail.com",
