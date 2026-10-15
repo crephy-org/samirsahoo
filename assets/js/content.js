@@ -15,7 +15,7 @@ window.SITE_CONTENT = {
     {
       date: "2026",
       title: "Distributed delays and noise",
-      text: "Paper on synchronization with distributed delays and noise in Kuramoto-Daido oscillators accepted in Physical Review Research."
+      text: "Paper on synchronization with distributed delays and noise in Kuramoto-Daido oscillators appeared in Physical Review Research."
     },
     {
       date: "2026",
@@ -54,8 +54,8 @@ window.SITE_CONTENT = {
     {
       id: "physical-arrays",
       title: "When do reduced models describe a physical array?",
-      text: "I compare reduced oscillator models with more detailed descriptions of photonic and Josephson-type arrays to understand which effects of inertia, disorder, feedback, delay, and noise survive the reduction.",
-      tags: ["Josephson arrays", "Photonics", "Feedback"],
+      text: "I compare reduced oscillator models with more detailed descriptions of Laser and Josephson junction arrays to understand which effects of inertia, disorder, feedback, delay, and noise survive the reduction.",
+      tags: ["Josephson arrays", "Laser arrays", "Feedback"],
       link: "research/physical-arrays.html"
     }
   ],
@@ -71,7 +71,7 @@ window.SITE_CONTENT = {
     },
     {
       title: "From oscillator models to physical arrays",
-      text: "Which parts of a reduced phase description remain quantitative for photonic and Josephson arrays, and when must the device dynamics be retained?"
+      text: "Which parts of a reduced phase description remain quantitative for Laser and Josephson junction arrays, and when must the device dynamics be retained?"
     }
   ],
 
@@ -80,10 +80,10 @@ window.SITE_CONTENT = {
       year:"2026",
       title:"Combined Framework for Synchronization with Distributed Delays and Noise in Kuramoto-Daido Oscillators",
       authors:"Samir Sahoo and Antonio Palacios",
-      venue:"Physical Review Research",
-      status:"Accepted; in production",
+      venue:"Physical Review Research 8, 043038",
+      status:"Published",
       doi:"https://doi.org/10.1103/v5cl-krph",
-      scholar: null
+      scholar:"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBcPMR8AAAAJ&citation_for_view=UBcPMR8AAAAJ:Se3iqnhoufwC"
     },
     {
       year:"2026",
